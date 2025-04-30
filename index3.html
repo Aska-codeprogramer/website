@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <style>
+        .login-1 {
+            font-size: 30px;
+            text-align: center;
+            font-family: Arial;
+            cursor: help;
+            transition: all 2s;
+            position: relative;
+            top: 5px;
+        }
+        .login-1:hover { 
+            color: black;
+            text-shadow: 10px 15px 20px black;
+        }
+        .table-border {
+            border: none;
+        }
+        .form {
+            text-align: center;
+            background-color: rgb(228, 223, 223);
+            border-radius: 30px;
+            box-shadow: 0 0 30px rgb(27, 25, 25);
+            width: 300px;
+            justify-content: center;
+            margin: 0 auto;
+            position: relative;
+            top: 100px;
+            cursor: default;
+        }
+        .table {
+            align: center;
+        }
+        .bold {
+            font-style: normal;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .bold:active {
+            font-style: italic;
+        }
+        .navbar {
+            background-color: ;
+        }
+        .button {
+            background-color: red;
+            transition: all 2s;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .button:hover {
+            color: red;
+            background-color: white;
+            box-shadow: 5px 10px 15px red;
+        }
+        .href-kirim {
+            text-decoration: none;
+            color: black;
+        }
+        .d-inline-block {
+            position: relative;
+            top: 2px ;
+        }
+        .navbar-login {
+            position: relative;
+            top: -12px;
+            text-decoration: none;
+        }
+        .body-1 {
+            background-image: url(img/gambar4.jpg);
+        }
+        
+       
+        
+        
+    </style>
+</head>
+<body class="body-1"> 
+
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#login">
+            <img src="img/gambar1pin.jpeg" alt="Logo" width="40" height="35" class="d-inline-block align-text-top">
+            <a href="#login" class="navbar-login">LOGIN</a>
+          </a>
+        </div>
+      </nav>
+
+
+
+
+
+
+
+
+
+
+   <form action="" class="form" id="login">
+    <div class="login">
+        <h1 class="login-1">
+            LOGIN
+        </h1>
+       </div>
+       <br>
+    <table class="table-border" cellpadding="6" class="table" align="center" id="login">
+        <tr>
+            <td>
+                <label for="username" class="bold">USERNAME</label>
+            </td>
+            <td>:</td>
+            <td>
+                <input type="text" id="username">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="password" class="bold">PASSWORD</label>
+            </td>
+            <td>:</td>
+            <td>
+                <input type="password" id="password">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <input type="radio" id="pria" name="jeniskelamin"><label for="pria" class="bold">Pria</label>
+                <input type="radio" id="wanita" name="jeniskelamin"><label for="wanita" class="bold">Wanita</label>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <button type="submit" class="button">
+                    <a href="index.html" class="href-kirim">Kirim</a>
+                </button>
+            </td>
+        </tr>
+    </table>
+   </form>
+
+   
+   
+
+
+
+  
+
+
+    
+</body>
+</html>
